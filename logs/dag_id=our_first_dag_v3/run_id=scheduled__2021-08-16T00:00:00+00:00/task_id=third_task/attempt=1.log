@@ -1,0 +1,28 @@
+[2023-04-05T13:01:31.090+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: our_first_dag_v3.third_task scheduled__2021-08-16T00:00:00+00:00 [queued]>
+[2023-04-05T13:01:31.119+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: our_first_dag_v3.third_task scheduled__2021-08-16T00:00:00+00:00 [queued]>
+[2023-04-05T13:01:31.119+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-05T13:01:31.120+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 6
+[2023-04-05T13:01:31.120+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-05T13:01:31.175+0000] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): third_task> on 2021-08-16 00:00:00+00:00
+[2023-04-05T13:01:31.186+0000] {standard_task_runner.py:55} INFO - Started process 5499 to run task
+[2023-04-05T13:01:31.198+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'our_first_dag_v3', 'third_task', 'scheduled__2021-08-16T00:00:00+00:00', '--job-id', '1359', '--raw', '--subdir', 'DAGS_FOLDER/our_first_dag.py', '--cfg-path', '/tmp/tmp_2of7qyt']
+[2023-04-05T13:01:31.201+0000] {standard_task_runner.py:83} INFO - Job 1359: Subtask third_task
+[2023-04-05T13:01:31.378+0000] {task_command.py:389} INFO - Running <TaskInstance: our_first_dag_v3.third_task scheduled__2021-08-16T00:00:00+00:00 [running]> on host e3ca158aac6b
+[2023-04-05T13:01:31.598+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dejan
+AIRFLOW_CTX_DAG_ID=our_first_dag_v3
+AIRFLOW_CTX_TASK_ID=third_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-08-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-08-16T00:00:00+00:00
+[2023-04-05T13:01:31.599+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-04-05T13:01:31.600+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo Hey I am task3 and will be running after task1 at the same time as task2']
+[2023-04-05T13:01:31.617+0000] {subprocess.py:86} INFO - Output:
+[2023-04-05T13:01:31.620+0000] {subprocess.py:93} INFO - Hey I am task3 and will be running after task1 at the same time as task2
+[2023-04-05T13:01:31.621+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-04-05T13:01:31.692+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=our_first_dag_v3, task_id=third_task, execution_date=20210816T000000, start_date=20230405T130131, end_date=20230405T130131
+[2023-04-05T13:01:31.794+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-05T13:01:31.851+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
