@@ -1,0 +1,42 @@
+[2023-04-05T11:16:58.532+0200] {processor.py:153} INFO - Started process (PID=110718) to work on /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:16:58.533+0200] {processor.py:743} INFO - Processing file /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-04-05T11:16:58.533+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:16:58.533+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:16:58.536+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:16:58.535+0200] {dagbag.py:341} ERROR - Failed to import: /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2023-04-05T11:16:58.536+0200] {processor.py:755} WARNING - No viable dags retrieved from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:16:58.545+0200] {processor.py:175} INFO - Processing /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.014 seconds
+[2023-04-05T11:17:38.926+0200] {processor.py:153} INFO - Started process (PID=111020) to work on /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:17:38.927+0200] {processor.py:743} INFO - Processing file /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-04-05T11:17:38.927+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:38.927+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:17:38.929+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:38.928+0200] {dagbag.py:341} ERROR - Failed to import: /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2023-04-05T11:17:38.929+0200] {processor.py:755} WARNING - No viable dags retrieved from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:17:38.939+0200] {processor.py:175} INFO - Processing /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.014 seconds
+[2023-04-05T11:18:19.019+0200] {processor.py:153} INFO - Started process (PID=111166) to work on /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:18:19.020+0200] {processor.py:743} INFO - Processing file /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-04-05T11:18:19.020+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:18:19.020+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:18:19.021+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:18:19.021+0200] {dagbag.py:341} ERROR - Failed to import: /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2023-04-05T11:18:19.022+0200] {processor.py:755} WARNING - No viable dags retrieved from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-05T11:18:19.031+0200] {processor.py:175} INFO - Processing /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.014 seconds

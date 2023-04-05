@@ -1,0 +1,251 @@
+[2023-04-05T11:16:33.251+0200] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-04-05T11:16:33.251+0200] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-04-05T11:16:33.251+0200] {manager.py:489} INFO - Checking for new files in /home/dejan/Desktop/airflow/dags every 300 seconds
+[2023-04-05T11:16:33.251+0200] {manager.py:736} INFO - Searching for files in /home/dejan/Desktop/airflow/dags
+[2023-04-05T11:16:33.259+0200] {manager.py:739} INFO - There are 42 files in /home/dejan/Desktop/airflow/dags
+[2023-04-05T11:16:33.498+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.21s           2023-04-05T09:16:33
+================================================================================
+[2023-04-05T11:17:03.713+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0  0.10s           2023-04-05T09:16:34
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-04-05T09:16:55
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0  0.10s           2023-04-05T09:16:56
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.10s           2023-04-05T09:16:57
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           1  0.11s           2023-04-05T09:16:58
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.21s           2023-04-05T09:16:33
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.20s           2023-04-05T09:16:59
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.20s           2023-04-05T09:17:00
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      1           0  0.21s           2023-04-05T09:17:01
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.20s           2023-04-05T09:16:35
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.20s           2023-04-05T09:16:37
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.20s           2023-04-05T09:17:03
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   1           0  0.20s           2023-04-05T09:16:38
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.20s           2023-04-05T09:16:39
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2023-04-05T09:17:03
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.20s           2023-04-05T09:16:40
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.20s           2023-04-05T09:16:42
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2023-04-05T09:16:43
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.20s           2023-04-05T09:16:43
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          1           0  0.20s           2023-04-05T09:16:44
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.20s           2023-04-05T09:16:46
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.20s           2023-04-05T09:16:47
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2023-04-05T09:16:48
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.20s           2023-04-05T09:16:50
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.20s           2023-04-05T09:16:51
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.20s           2023-04-05T09:16:52
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2023-04-05T09:16:54
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2023-04-05T09:16:53
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2023-04-05T09:16:48
+================================================================================
+[2023-04-05T11:17:33.989+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0  0.11s           2023-04-05T09:17:18
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-04-05T09:17:10
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-04-05T09:17:16
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-04-05T09:16:55
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0  0.10s           2023-04-05T09:16:56
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.10s           2023-04-05T09:16:57
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           1  0.11s           2023-04-05T09:16:58
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.11s           2023-04-05T09:17:18
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.20s           2023-04-05T09:16:59
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.20s           2023-04-05T09:17:00
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      1           0  0.21s           2023-04-05T09:17:01
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-04-05T09:17:19
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-04-05T09:17:20
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.20s           2023-04-05T09:17:03
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   1           0  0.10s           2023-04-05T09:17:21
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-04-05T09:17:22
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2023-04-05T09:17:03
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-04-05T09:17:23
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-04-05T09:17:24
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2023-04-05T09:17:04
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.20s           2023-04-05T09:17:05
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.20s           2023-04-05T09:17:07
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2023-04-05T09:17:25
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.20s           2023-04-05T09:17:08
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.20s           2023-04-05T09:17:09
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.10s           2023-04-05T09:17:26
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          1           0  0.10s           2023-04-05T09:17:27
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2023-04-05T09:17:28
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.10s           2023-04-05T09:17:29
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.20s           2023-04-05T09:17:09
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-04-05T09:17:31
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-04-05T09:17:32
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        1           0  0.30s           2023-04-05T09:17:12
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-04-05T09:17:33
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-04-05T09:17:33
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2023-04-05T09:17:17
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2023-04-05T09:16:54
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2023-04-05T09:17:15
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2023-04-05T09:16:53
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-04-05T09:17:30
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.21s           2023-04-05T09:17:13
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.30s           2023-04-05T09:17:14
+================================================================================
+[2023-04-05T11:18:04.260+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0  0.10s           2023-04-05T09:17:57
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-04-05T09:17:50
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.12s           2023-04-05T09:17:54
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-04-05T09:17:35
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0  0.11s           2023-04-05T09:17:36
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.10s           2023-04-05T09:17:37
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           1  0.10s           2023-04-05T09:17:39
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.11s           2023-04-05T09:17:56
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2023-04-05T09:17:40
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.11s           2023-04-05T09:17:40
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      1           0  0.10s           2023-04-05T09:17:41
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2023-04-05T09:17:58
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-04-05T09:17:59
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-04-05T09:17:43
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   1           0  0.10s           2023-04-05T09:18:00
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-04-05T09:18:01
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-04-05T09:17:44
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-04-05T09:18:02
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.12s           2023-04-05T09:18:03
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2023-04-05T09:17:44
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-04-05T09:17:45
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-04-05T09:17:45
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-04-05T09:18:04
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-04-05T09:17:47
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-04-05T09:17:48
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.10s           2023-04-05T09:17:26
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          1           0  0.10s           2023-04-05T09:17:27
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2023-04-05T09:17:28
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.10s           2023-04-05T09:17:29
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-04-05T09:17:49
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-04-05T09:17:31
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-04-05T09:17:32
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        1           0  0.20s           2023-04-05T09:17:51
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-04-05T09:17:33
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-04-05T09:17:33
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.11s           2023-04-05T09:17:55
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2023-04-05T09:17:35
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.11s           2023-04-05T09:17:54
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-04-05T09:17:34
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-04-05T09:17:30
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.10s           2023-04-05T09:17:52
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.10s           2023-04-05T09:17:53
+================================================================================
+[2023-04-05T11:18:34.533+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0  0.10s           2023-04-05T09:17:57
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-04-05T09:18:30
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.12s           2023-04-05T09:17:54
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-04-05T09:18:16
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0  0.10s           2023-04-05T09:18:16
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.10s           2023-04-05T09:18:17
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           1  0.10s           2023-04-05T09:18:19
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.11s           2023-04-05T09:17:56
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-04-05T09:18:19
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-04-05T09:18:20
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      1           0  0.11s           2023-04-05T09:18:21
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2023-04-05T09:17:58
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-04-05T09:17:59
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-04-05T09:18:21
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   1           0  0.10s           2023-04-05T09:18:00
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-04-05T09:18:01
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-04-05T09:18:23
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-04-05T09:18:02
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.12s           2023-04-05T09:18:03
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-04-05T09:18:24
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-04-05T09:18:25
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-04-05T09:18:26
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-04-05T09:18:04
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-04-05T09:18:27
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-04-05T09:18:28
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.10s           2023-04-05T09:18:04
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          1           0  0.10s           2023-04-05T09:18:05
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-04-05T09:18:06
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.11s           2023-04-05T09:18:07
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-04-05T09:18:29
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-04-05T09:18:09
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-04-05T09:18:11
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        1           0  0.20s           2023-04-05T09:18:31
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-04-05T09:18:11
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-04-05T09:18:12
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.11s           2023-04-05T09:17:55
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2023-04-05T09:18:14
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.11s           2023-04-05T09:18:34
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-04-05T09:18:14
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2023-04-05T09:18:08
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.10s           2023-04-05T09:18:32
+/home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.10s           2023-04-05T09:18:33
+================================================================================
+[2023-04-05T11:18:40.340+0200] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

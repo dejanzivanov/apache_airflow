@@ -1,0 +1,25 @@
+[2023-04-05T11:17:03.512+0200] {processor.py:153} INFO - Started process (PID=110759) to work on /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:17:03.513+0200] {processor.py:743} INFO - Processing file /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-04-05T11:17:03.514+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:03.514+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:17:03.534+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:17:03.628+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:03.628+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2023-04-05T11:17:03.634+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:03.634+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2023-04-05T11:17:03.640+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:03.640+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2023-04-05T11:17:03.640+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:03.640+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-05T11:17:03.647+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:03.647+0200] {dag.py:2726} INFO - Creating ORM DAG for example_bash_operator
+[2023-04-05T11:17:03.655+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:03.654+0200] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2023-04-04T00:00:00+00:00, run_after=2023-04-05T00:00:00+00:00
+[2023-04-05T11:17:03.667+0200] {processor.py:175} INFO - Processing /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.158 seconds
+[2023-04-05T11:17:44.066+0200] {processor.py:153} INFO - Started process (PID=111034) to work on /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:17:44.067+0200] {processor.py:743} INFO - Processing file /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-04-05T11:17:44.068+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:44.067+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:17:44.085+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:17:44.111+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:44.111+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-05T11:17:44.125+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:17:44.125+0200] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2023-04-04T00:00:00+00:00, run_after=2023-04-05T00:00:00+00:00
+[2023-04-05T11:17:44.141+0200] {processor.py:175} INFO - Processing /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.077 seconds
+[2023-04-05T11:18:23.022+0200] {processor.py:153} INFO - Started process (PID=111179) to work on /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:18:23.022+0200] {processor.py:743} INFO - Processing file /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-04-05T11:18:23.023+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:18:23.023+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:18:23.037+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-04-05T11:18:23.061+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:18:23.061+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-05T11:18:23.076+0200] {logging_mixin.py:137} INFO - [2023-04-05T11:18:23.076+0200] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2023-04-04T00:00:00+00:00, run_after=2023-04-05T00:00:00+00:00
+[2023-04-05T11:18:23.089+0200] {processor.py:175} INFO - Processing /home/dejan/Desktop/airflow/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.069 seconds
