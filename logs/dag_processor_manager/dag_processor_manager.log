@@ -9416,3 +9416,222 @@ File Path                                                                       
 [2023-04-05T11:47:30.652+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
 [2023-04-05T11:47:30.676+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
 [2023-04-05T11:47:30.725+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-06T16:35:55.902+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-04-06T16:35:55.903+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-04-06T16:35:55.904+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-04-06T16:35:55.904+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-06T16:35:55.907+0000] {manager.py:739} INFO - There are 0 files in /opt/airflow/dags
+[2023-04-06T16:38:56.788+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-06T16:39:40.606+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-04-06T16:39:40.607+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-04-06T16:39:40.607+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-04-06T16:39:40.608+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-06T16:39:40.609+0000] {manager.py:739} INFO - There are 1 files in /opt/airflow/dags
+[2023-04-06T16:39:40.695+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py    168  0.03s             0           0
+================================================================================
+[2023-04-06T16:40:10.844+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.37s           2023-04-06T16:39:41
+================================================================================
+[2023-04-06T16:40:41.336+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py    218  0.00s             1           0  0.11s           2023-04-06T16:40:11
+================================================================================
+[2023-04-06T16:41:11.524+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py    382  0.01s             1           0  0.11s           2023-04-06T16:40:41
+================================================================================
+[2023-04-06T16:41:41.822+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.21s           2023-04-06T16:41:41
+================================================================================
+[2023-04-06T16:42:12.165+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.31s           2023-04-06T16:41:49
+================================================================================
+[2023-04-06T16:42:42.416+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.15s           2023-04-06T16:42:19
+================================================================================
+[2023-04-06T16:43:12.597+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.13s           2023-04-06T16:42:49
+================================================================================
+[2023-04-06T16:43:42.856+0000] {manager.py:524} INFO - DAG dag_with_catchup_and_backfill_v01 is missing and will be deactivated.
+[2023-04-06T16:43:42.862+0000] {manager.py:534} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2023-04-06T16:43:42.865+0000] {manager.py:538} INFO - Deleted DAG dag_with_catchup_and_backfill_v01 in serialized_dag table
+[2023-04-06T16:43:42.868+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.13s           2023-04-06T16:43:19
+================================================================================
+[2023-04-06T16:44:13.042+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.12s           2023-04-06T16:43:50
+================================================================================
+[2023-04-06T16:44:41.255+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-06T16:44:41.256+0000] {manager.py:739} INFO - There are 1 files in /opt/airflow/dags
+[2023-04-06T16:44:43.291+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.12s           2023-04-06T16:44:20
+================================================================================
+[2023-04-06T16:45:13.457+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.13s           2023-04-06T16:44:50
+================================================================================
+[2023-04-06T16:45:43.720+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.14s           2023-04-06T16:45:20
+================================================================================
+[2023-04-06T16:46:13.886+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.15s           2023-04-06T16:45:50
+================================================================================
+[2023-04-06T16:46:44.184+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.14s           2023-04-06T16:46:21
+================================================================================
+[2023-04-06T16:47:14.345+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.16s           2023-04-06T16:46:51
+================================================================================
+[2023-04-06T16:47:44.643+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.14s           2023-04-06T16:47:21
+================================================================================
+[2023-04-06T16:48:14.906+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.14s           2023-04-06T16:47:51
+================================================================================
+[2023-04-06T16:48:45.069+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.12s           2023-04-06T16:48:22
+================================================================================
+[2023-04-06T16:49:15.322+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.11s           2023-04-06T16:48:52
+================================================================================
+[2023-04-06T16:49:41.462+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-06T16:49:41.463+0000] {manager.py:739} INFO - There are 1 files in /opt/airflow/dags
+[2023-04-06T16:49:45.504+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.12s           2023-04-06T16:49:22
+================================================================================
+[2023-04-06T16:50:15.730+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.12s           2023-04-06T16:49:52
+================================================================================
+[2023-04-06T16:50:45.894+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.11s           2023-04-06T16:50:22
+================================================================================
+[2023-04-06T16:51:16.132+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.11s           2023-04-06T16:50:53
+================================================================================
+[2023-04-06T16:51:46.297+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.13s           2023-04-06T16:51:23
+================================================================================
+[2023-04-06T16:51:50.921+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
