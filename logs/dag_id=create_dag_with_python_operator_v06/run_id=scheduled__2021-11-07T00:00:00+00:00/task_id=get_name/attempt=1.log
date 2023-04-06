@@ -1,0 +1,23 @@
+[2023-04-06T13:29:25.866+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_dag_with_python_operator_v06.get_name scheduled__2021-11-07T00:00:00+00:00 [queued]>
+[2023-04-06T13:29:25.894+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_dag_with_python_operator_v06.get_name scheduled__2021-11-07T00:00:00+00:00 [queued]>
+[2023-04-06T13:29:25.894+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-06T13:29:25.895+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 6
+[2023-04-06T13:29:25.895+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-06T13:29:25.953+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): get_name> on 2021-11-07 00:00:00+00:00
+[2023-04-06T13:29:25.961+0000] {standard_task_runner.py:55} INFO - Started process 3426 to run task
+[2023-04-06T13:29:25.970+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'create_dag_with_python_operator_v06', 'get_name', 'scheduled__2021-11-07T00:00:00+00:00', '--job-id', '4045', '--raw', '--subdir', 'DAGS_FOLDER/create_dag_with_python_operator.py', '--cfg-path', '/tmp/tmpsb36mhnq']
+[2023-04-06T13:29:25.972+0000] {standard_task_runner.py:83} INFO - Job 4045: Subtask get_name
+[2023-04-06T13:29:26.101+0000] {task_command.py:389} INFO - Running <TaskInstance: create_dag_with_python_operator_v06.get_name scheduled__2021-11-07T00:00:00+00:00 [running]> on host 971eab773426
+[2023-04-06T13:29:26.342+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dejan
+AIRFLOW_CTX_DAG_ID=create_dag_with_python_operator_v06
+AIRFLOW_CTX_TASK_ID=get_name
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-07T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-11-07T00:00:00+00:00
+[2023-04-06T13:29:26.427+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-06T13:29:26.453+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=create_dag_with_python_operator_v06, task_id=get_name, execution_date=20211107T000000, start_date=20230406T132925, end_date=20230406T132926
+[2023-04-06T13:29:26.532+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-06T13:29:26.618+0000] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

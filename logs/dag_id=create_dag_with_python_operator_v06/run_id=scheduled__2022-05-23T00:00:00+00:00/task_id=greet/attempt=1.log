@@ -1,0 +1,10 @@
+[2023-04-06T13:32:06.477+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_dag_with_python_operator_v06.greet scheduled__2022-05-23T00:00:00+00:00 [queued]>
+[2023-04-06T13:32:06.521+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_dag_with_python_operator_v06.greet scheduled__2022-05-23T00:00:00+00:00 [queued]>
+[2023-04-06T13:32:06.522+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-06T13:32:06.522+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 6
+[2023-04-06T13:32:06.523+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-06T13:32:06.547+0000] {local_task_job.py:113} ERROR - Received SIGTERM. Terminating subprocesses
+[2023-04-06T13:32:06.547+0000] {local_task_job.py:212} INFO - Task exited with return code 143
+[2023-04-06T13:32:06.623+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
