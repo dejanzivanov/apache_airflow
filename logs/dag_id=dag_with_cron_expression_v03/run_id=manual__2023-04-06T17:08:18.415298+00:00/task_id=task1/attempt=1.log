@@ -1,0 +1,28 @@
+[2023-04-06T17:08:19.731+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_cron_expression_v03.task1 manual__2023-04-06T17:08:18.415298+00:00 [queued]>
+[2023-04-06T17:08:19.744+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_cron_expression_v03.task1 manual__2023-04-06T17:08:18.415298+00:00 [queued]>
+[2023-04-06T17:08:19.744+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-06T17:08:19.744+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 6
+[2023-04-06T17:08:19.745+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-06T17:08:19.770+0000] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): task1> on 2023-04-06 17:08:18.415298+00:00
+[2023-04-06T17:08:19.777+0000] {standard_task_runner.py:55} INFO - Started process 3151 to run task
+[2023-04-06T17:08:19.778+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_with_cron_expression_v03', 'task1', 'manual__2023-04-06T17:08:18.415298+00:00', '--job-id', '6775', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_cron_expression.py', '--cfg-path', '/tmp/tmpqk1foeq3']
+[2023-04-06T17:08:19.780+0000] {standard_task_runner.py:83} INFO - Job 6775: Subtask task1
+[2023-04-06T17:08:19.851+0000] {task_command.py:389} INFO - Running <TaskInstance: dag_with_cron_expression_v03.task1 manual__2023-04-06T17:08:18.415298+00:00 [running]> on host 022b800e57ca
+[2023-04-06T17:08:19.948+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dejan
+AIRFLOW_CTX_DAG_ID=dag_with_cron_expression_v03
+AIRFLOW_CTX_TASK_ID=task1
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-06T17:08:18.415298+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-06T17:08:18.415298+00:00
+[2023-04-06T17:08:19.950+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-04-06T17:08:19.950+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "Dag with cron expression!"']
+[2023-04-06T17:08:19.961+0000] {subprocess.py:86} INFO - Output:
+[2023-04-06T17:08:19.963+0000] {subprocess.py:93} INFO - Dag with cron expression!
+[2023-04-06T17:08:19.963+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-04-06T17:08:19.991+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=dag_with_cron_expression_v03, task_id=task1, execution_date=20230406T170818, start_date=20230406T170819, end_date=20230406T170819
+[2023-04-06T17:08:20.037+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-06T17:08:20.062+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
