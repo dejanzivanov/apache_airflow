@@ -1,0 +1,19 @@
+sudo docker run \
+-p 9000:9000 \
+-p 9001:9001 \
+-e "MINIO_ROOT_USER=AKIAIOSFODNN7EXAMPLE" \
+-e "MINIO_ROOT_PASSWORD=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" \
+quay.io/minio/minio server /data --console-address ":9001"
+
+# Json file as an extra paramether for airflow S3 connection
+#{
+#	"aws_access_key_id": "AKIAAIOSFODNN7EXAMPLE",
+#	"aws_secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+#	"host": "http://127.0.0.1:9000"
+#}
+
+{
+	"aws_access_key_id": "AKIAAIOSFODNN7EXAMPLE",
+	"aws_secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+	"host": "http://172.17.0.2:9000
+}
