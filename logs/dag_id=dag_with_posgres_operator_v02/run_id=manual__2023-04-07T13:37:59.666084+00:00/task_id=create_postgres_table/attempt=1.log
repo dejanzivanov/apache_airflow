@@ -1,0 +1,38 @@
+[2023-04-07T13:38:00.391+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_posgres_operator_v02.create_postgres_table manual__2023-04-07T13:37:59.666084+00:00 [queued]>
+[2023-04-07T13:38:00.404+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_posgres_operator_v02.create_postgres_table manual__2023-04-07T13:37:59.666084+00:00 [queued]>
+[2023-04-07T13:38:00.405+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T13:38:00.405+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 6
+[2023-04-07T13:38:00.405+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T13:38:00.428+0000] {taskinstance.py:1309} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2023-04-07 13:37:59.666084+00:00
+[2023-04-07T13:38:00.433+0000] {standard_task_runner.py:55} INFO - Started process 1601 to run task
+[2023-04-07T13:38:00.435+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_with_posgres_operator_v02', 'create_postgres_table', 'manual__2023-04-07T13:37:59.666084+00:00', '--job-id', '6820', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_postgres_operator.py', '--cfg-path', '/tmp/tmpvg40i49k']
+[2023-04-07T13:38:00.436+0000] {standard_task_runner.py:83} INFO - Job 6820: Subtask create_postgres_table
+[2023-04-07T13:38:00.497+0000] {task_command.py:389} INFO - Running <TaskInstance: dag_with_posgres_operator_v02.create_postgres_table manual__2023-04-07T13:37:59.666084+00:00 [running]> on host ce9c8327347b
+[2023-04-07T13:38:00.610+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dejan
+AIRFLOW_CTX_DAG_ID=dag_with_posgres_operator_v02
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-07T13:37:59.666084+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-07T13:37:59.666084+00:00
+[2023-04-07T13:38:00.610+0000] {sql.py:254} INFO - Executing: 
+            create table if not exists dag_runs (
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            )
+        
+[2023-04-07T13:38:00.620+0000] {base.py:73} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-04-07T13:38:00.969+0000] {base.py:73} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-04-07T13:38:00.972+0000] {sql.py:375} INFO - Running statement: 
+            create table if not exists dag_runs (
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            )
+        , parameters: None
+[2023-04-07T13:38:00.986+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=dag_with_posgres_operator_v02, task_id=create_postgres_table, execution_date=20230407T133759, start_date=20230407T133800, end_date=20230407T133800
+[2023-04-07T13:38:01.024+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-07T13:38:01.052+0000] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

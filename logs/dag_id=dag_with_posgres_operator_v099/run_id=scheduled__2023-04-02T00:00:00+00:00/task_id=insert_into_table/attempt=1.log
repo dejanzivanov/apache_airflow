@@ -1,0 +1,31 @@
+[2023-04-07T13:42:47.754+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_posgres_operator_v099.insert_into_table scheduled__2023-04-02T00:00:00+00:00 [queued]>
+[2023-04-07T13:42:47.767+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_posgres_operator_v099.insert_into_table scheduled__2023-04-02T00:00:00+00:00 [queued]>
+[2023-04-07T13:42:47.768+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T13:42:47.768+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 6
+[2023-04-07T13:42:47.768+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T13:42:47.801+0000] {taskinstance.py:1309} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2023-04-02 00:00:00+00:00
+[2023-04-07T13:42:47.804+0000] {standard_task_runner.py:55} INFO - Started process 1777 to run task
+[2023-04-07T13:42:47.808+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_with_posgres_operator_v099', 'insert_into_table', 'scheduled__2023-04-02T00:00:00+00:00', '--job-id', '6844', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_postgres_operator.py', '--cfg-path', '/tmp/tmpyud91c0o']
+[2023-04-07T13:42:47.811+0000] {standard_task_runner.py:83} INFO - Job 6844: Subtask insert_into_table
+[2023-04-07T13:42:47.926+0000] {task_command.py:389} INFO - Running <TaskInstance: dag_with_posgres_operator_v099.insert_into_table scheduled__2023-04-02T00:00:00+00:00 [running]> on host ce9c8327347b
+[2023-04-07T13:42:48.103+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dejan
+AIRFLOW_CTX_DAG_ID=dag_with_posgres_operator_v099
+AIRFLOW_CTX_TASK_ID=insert_into_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-02T00:00:00+00:00
+[2023-04-07T13:42:48.105+0000] {sql.py:254} INFO - Executing: 
+            insert into dag_runs (dt, dag_id) values ('2023-04-02', 'dag_with_posgres_operator_v099')
+        
+[2023-04-07T13:42:48.125+0000] {base.py:73} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-04-07T13:42:48.530+0000] {base.py:73} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-04-07T13:42:48.532+0000] {sql.py:375} INFO - Running statement: 
+            insert into dag_runs (dt, dag_id) values ('2023-04-02', 'dag_with_posgres_operator_v099')
+        , parameters: None
+[2023-04-07T13:42:48.533+0000] {sql.py:384} INFO - Rows affected: 1
+[2023-04-07T13:42:48.548+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=dag_with_posgres_operator_v099, task_id=insert_into_table, execution_date=20230402T000000, start_date=20230407T134247, end_date=20230407T134248
+[2023-04-07T13:42:48.588+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-07T13:42:48.613+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
