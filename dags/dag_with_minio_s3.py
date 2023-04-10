@@ -22,6 +22,9 @@ with DAG(
         task_id = 'sensor_minio_s3',
         bucket_name = 'airflow',
         bucket_key = 'data.csv',
-        aws_conn_id = 'minio_s3_conn'
+        aws_conn_id = 'minio_s3_conn',
+        mode = 'poke',
+        poke_interval = 5,
+        timeout = 30,
     )
     

@@ -1,0 +1,47 @@
+[2023-04-10T14:42:08.504+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_minion_s3_v03.sensor_minio_s3 scheduled__2023-04-07T00:00:00+00:00 [queued]>
+[2023-04-10T14:42:08.563+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_minion_s3_v03.sensor_minio_s3 scheduled__2023-04-07T00:00:00+00:00 [queued]>
+[2023-04-10T14:42:08.563+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-10T14:42:08.563+0000] {taskinstance.py:1289} INFO - Starting attempt 2 of 6
+[2023-04-10T14:42:08.563+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-10T14:42:08.629+0000] {taskinstance.py:1309} INFO - Executing <Task(S3KeySensor): sensor_minio_s3> on 2023-04-07 00:00:00+00:00
+[2023-04-10T14:42:08.643+0000] {standard_task_runner.py:55} INFO - Started process 408 to run task
+[2023-04-10T14:42:08.644+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_minion_s3_v03', 'sensor_minio_s3', 'scheduled__2023-04-07T00:00:00+00:00', '--job-id', '7035', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_minio_s3.py', '--cfg-path', '/tmp/tmp8tknqngj']
+[2023-04-10T14:42:08.674+0000] {standard_task_runner.py:83} INFO - Job 7035: Subtask sensor_minio_s3
+[2023-04-10T14:42:08.879+0000] {task_command.py:389} INFO - Running <TaskInstance: dag_minion_s3_v03.sensor_minio_s3 scheduled__2023-04-07T00:00:00+00:00 [running]> on host 8be76219b2ce
+[2023-04-10T14:42:09.073+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dejan
+AIRFLOW_CTX_DAG_ID=dag_minion_s3_v03
+AIRFLOW_CTX_TASK_ID=sensor_minio_s3
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-07T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-07T00:00:00+00:00
+[2023-04-10T14:42:09.074+0000] {s3.py:99} INFO - Poking for key : s3://***/data.csv
+[2023-04-10T14:42:09.114+0000] {base.py:73} INFO - Using connection ID 'minio_s3_conn' for task execution.
+[2023-04-10T14:42:09.115+0000] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='minio_s3_conn', conn_type='aws') credentials retrieved from extra.
+[2023-04-10T14:42:10.910+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/base.py", line 199, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 130, in poke
+    return self._check_key(self.bucket_key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 118, in _check_key
+    obj = self.hook.head_object(key, bucket_name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 111, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 82, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 504, in head_object
+    raise e
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 499, in head_object
+    return self.get_conn().head_object(Bucket=bucket_name, Key=key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 530, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 960, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (403) when calling the HeadObject operation: Forbidden
+[2023-04-10T14:42:10.918+0000] {taskinstance.py:1332} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_minion_s3_v03, task_id=sensor_minio_s3, execution_date=20230407T000000, start_date=20230410T144208, end_date=20230410T144210
+[2023-04-10T14:42:10.982+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 7035 for task sensor_minio_s3 (An error occurred (403) when calling the HeadObject operation: Forbidden; 408)
+[2023-04-10T14:42:11.017+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-10T14:42:11.049+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
